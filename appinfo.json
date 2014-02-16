@@ -1,0 +1,83 @@
+{
+    "versionLabel": "1.0.0",
+    "uuid": "e944c919-7ae9-4737-8033-ac073a1b8a90",
+    "appKeys": {
+        "dummy": 0
+    },
+    "longName": "Informative Lite (2.0)",
+    "versionCode": 1,
+    "capabilities": [
+        ""
+    ],
+    "shortName": "InformativeL",
+    "companyName": "dotar",
+    "watchapp": {
+        "watchface": true
+    },
+    "resources": {
+        "media": [
+            {
+                "characterRegex": "[0-9:.]",
+                "type": "font",
+                "name": "FONT_ARIAL_50",
+                "file": "fonts/arial.ttf"
+            },
+            {
+                "type": "png",
+                "name": "IMAGE_THUNDER",
+                "file": "images/thunder.png"
+            },
+            {
+                "type": "png",
+                "name": "IMAGE_SNOW",
+                "file": "images/snow.png"
+            },
+            {
+                "type": "png",
+                "name": "IMAGE_FOG",
+                "file": "images/fog.png"
+            },
+            {
+                "type": "png",
+                "name": "IMAGE_WIND",
+                "file": "images/wind.png"
+            },
+            {
+                "type": "png",
+                "name": "IMAGE_SUN_CLOUD",
+                "file": "images/sun_cloud.png"
+            },
+            {
+                "type": "png",
+                "name": "IMAGE_CLOUD",
+                "file": "images/cloud.png"
+            },
+            {
+                "type": "png",
+                "name": "IMAGE_RAIN",
+                "file": "images/rain.png"
+            },
+            {
+                "type": "png",
+                "name": "IMAGE_SUN",
+                "file": "images/sun.png"
+            },
+            {
+                "type": "png",
+                "name": "IMAGE_DISCONNECT",
+                "file": "images/disconnect_large.png"
+            },
+            {
+                "type": "png",
+                "name": "IMAGE_BACKGROUND",
+                "file": "images/background.png"
+            },
+            {
+                "menuIcon": true,
+                "type": "png",
+                "name": "IMAGE_MENU_ICON",
+                "file": "images/app_icon.png"
+            }
+        ]
+    }
+}
