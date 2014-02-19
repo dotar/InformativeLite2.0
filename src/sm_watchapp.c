@@ -274,7 +274,7 @@ void pebble_battery_layer_update_callback(Layer *me, GContext* ctx) {
 	graphics_context_set_fill_color(ctx, GColorWhite);
 
 	//graphics_fill_rect(ctx, GRect(15-(int)((batteryPblPercent/100.0)*15.0), 0, 15, 7), 0, GCornerNone);
-	graphics_fill_rect(ctx, GRect(2, 2, (int)((batteryPercent/100.0)*20.0), 10), 0, GCornerNone);
+	graphics_fill_rect(ctx, GRect(2, 2, (int)((batteryPblPercent/100.0)*20.0), 10), 0, GCornerNone);
 	
 }
 
